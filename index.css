@@ -3,8 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Quicksand:wght@300&display=swap');
 body
 {
+    
     background: url("whi.jpg");
     backdrop-filter: blur(2px);
+    
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,6 +21,7 @@ body
     
     background: rgba(250, 249, 249, 0.3);
     position: relative;
+    border-radius:15px;
    top:50px;
     width:500px;
     height:600px;
@@ -62,7 +65,7 @@ font-family: 'Quicksand', sans-serif;
 }
 .anchor, a
 {
-   
+    background: rgb(250, 249, 249);
   color: black;
   padding: 14px 25px;
   text-align: center;
@@ -86,16 +89,18 @@ a:link {
   
   /* visited link */
   a:visited {
-    
+    background-color: rgba(255, 255, 255, 0.667);
+    color:rgb(0, 0, 0);
   }
   
   /* mouse over link */
   a:hover {
-    background-color:rgba(0, 0, 0, 0.418);
-    z-index:9999;
+    background: rgba(255, 255, 255, 0.126);
+    color:rgb(255, 255, 255);
   }
   
   /* selected link */
   a:active {
-    color: yellow;
+    color: rgb(0, 0, 0);
   }
+  
