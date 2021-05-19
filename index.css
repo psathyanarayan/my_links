@@ -96,7 +96,7 @@ a:link {
   /* mouse over link */
   a:hover {
     background: rgba(255, 255, 255, 0.126);
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
   }
   
   /* selected link */
