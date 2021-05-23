@@ -1,4 +1,4 @@
 $(window).load(function() {
-	$(".preloader").delay(2000).fadeOut("slow");
-  $("#overlayer").delay(2000).fadeOut("slow");
+	$(".preloader").delay(1000).fadeOut("slow");
+  $("#overlayer").delay(1000).fadeOut("slow");
 })
