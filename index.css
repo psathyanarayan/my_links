@@ -5,7 +5,7 @@ body
 {
     
     background: url("whi.jpg");
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(5px);
     
     height: 100vh;
     background-size: cover;
@@ -15,7 +15,17 @@ body
     justify-content: center;
     align-items: center;
     overflow: scroll;
+    animation: shrink 10s infinite alternate;
 }
+@keyframes shrink {
+  0% {
+    background-size: 110% 110%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
 .fade-in {
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
