@@ -1,0 +1,21 @@
+{
+  "name": "sathya_biolinks",
+  "version": "1.0.0",
+  "description": "My Bio links",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psathyanarayan/my_links.git"
+  },
+  "author": "p sathya narayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psathyanarayan/my_links/issues"
+  },
+  "homepage": "https://github.com/psathyanarayan/my_links#readme"
+}
